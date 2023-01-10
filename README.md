@@ -1,2 +1,3 @@
 # graphdb-reco-engine
-graph-based recommendation engine
+
+Example of recommendation engine using go + redisgraph
