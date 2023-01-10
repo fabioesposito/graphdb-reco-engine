@@ -1,4 +1,4 @@
-module github.com/fabioesposito/graphdb-reco-engine
+module graphdb-reco-engine
 
 go 1.19
 
