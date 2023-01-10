@@ -19,8 +19,8 @@ func main() {
 	r.SetFuncMap(template.FuncMap{
 		"upper": strings.ToUpper,
 	})
-	r.Static("/assets", "html/assets")
-	r.LoadHTMLGlob("html/templates/*.html")
+	r.Static("/assets", "public_html/assets")
+	r.LoadHTMLGlob("public_html/templates/*.html")
 
 	// App Routes
 	// Web pages
