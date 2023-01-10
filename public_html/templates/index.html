@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="https://unpkg.com/htmx.org@1.8.4"></script>
+    <title>Go HTMX Example</title>
+</head>
+
+<body>
+    <p>{{ .content }}</p>
+    <button hx-get="/api/ping" hx-swap="outerHTML">
+        Click Me
+      </button>
+</body>
+
+</html>
